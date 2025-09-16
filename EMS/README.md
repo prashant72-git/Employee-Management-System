@@ -28,7 +28,4 @@ CREATE DATABASE ems_dev CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
   - `POST /api/payroll/runs/preview?month=2025-08`
   - `POST /api/payroll/runs/{month}/lock`  e.g. `/api/payroll/runs/2025-08/lock`
 
-## Notes
-- Security is permissive for MVP. Replace with JWT when ready.
-- Attendance rules are simplified; adjust in `AttendanceService`.
-- Payroll uses simplified components; extend with templates & tax slabs later.
+
